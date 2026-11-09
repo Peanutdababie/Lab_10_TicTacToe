@@ -51,7 +51,7 @@ public class SafeInput {
         String garbageString = "";
         boolean garbageFlag = false;
 
-        //yeah this isn't working lmao, it gets stuck in a do loop no matter the input made
+
         do {
             System.out.println("\n" + prompt + ": ");
             if (pipe.hasNextInt()) {
